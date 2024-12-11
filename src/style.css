@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* Center the main content */
+.container{
+display: flex;
+justify-content: space-between;
+
+
+}
+h1 {
+    color: #333;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  /* Navbar customizations */
+  .navbar {
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #007bff !important;
+  }
+  
+  .nav-link {
+    color: #555 !important;
+   text-decoration: underline;
+   
+   
+  }
+  
+  .nav-link:hover {
+    color: #007bff !important;
+  }
+  
+  /* Footer styles */
+  footer {
+
+  
+    padding: 20px 0;
+  }
+  
+  footer h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin: 5px 0;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #666;
+  }
+  .page{
+    margin-top: 15%;
+  margin-left: 44%;
+  margin-bottom: 8%;
+  font-size: 50px;
+  }
+  .space {
+  display: flex;
+  justify-content: space-between; /* Spaces out the columns evenly */
+  text-align: left;
+}
+.line{
+    margin-top: 25px;
+    color: #238cfc;
+}
+.company{
+    text-decoration: none;
+}
+
+
+.decore{
+    list-style: none;
+    text-decoration: underline;
+}
+
+.cool{
+    color:blue ;
+}
