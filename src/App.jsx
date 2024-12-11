@@ -1,6 +1,6 @@
 
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './Navbar.jsx';
 import Home1 from "./Home1.jsx";
 import Feature1 from "./Feature1.jsx";
@@ -11,7 +11,7 @@ import './style.css'
 
 function App() {
   return (
-    <Router>
+    <>
       <Navbar />
       <div className="container">
         <Routes>
@@ -23,7 +23,7 @@ function App() {
                           </Routes>
       </div>
       <Footer/>
-    </Router>
+    </>
   );
 }
 
